@@ -195,7 +195,7 @@ COMMON_SS_SUPPORTED_CIPHERS = [
 # reference: https://github.com/MetaCubeX/sing-shadowsocks2/blob/dev/shadowaead_2022/method.go#L73-L86
 MIHOMO_SS_SUPPORTED_CIPHERS_SALT_LEN = {
     "2022-blake3-aes-128-gcm": 16,
-    "2022-blake3-aes-256-gcm": 32,
+    #"2022-blake3-aes-256-gcm": 32,
     "2022-blake3-chacha20-poly1305": 32,
 }
 
